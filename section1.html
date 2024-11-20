@@ -1,72 +1,83 @@
-<!-- content/section1.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{PAGE_TITLE}} - Section 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 1: Getting Started</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="layout-container">
-        <!-- Same sidebar as index -->
+        <!-- Sidebar -->
         <aside class="sidebar">
-            <!-- Same navigation content -->
+            <nav class="sidebar-nav">
+                <a href="./index.html" class="nav-item">
+                    <div>0. Overview</div>
+                </a>
+                <a href="./section1.html" class="nav-item active">
+                    <div>1. Getting Started</div>
+                </a>
+                <!-- Add more navigation items -->
+            </nav>
+            <div class="sidebar-footer">
+                <img src="images/footer-logo.png" alt="Footer Logo" />
+            </div>
         </aside>
 
+        <!-- Main Content -->
         <main class="main-content">
             <header>
                 <div class="logo-container">
                     <img src="images/header-logo.png" alt="Header Logo" />
                 </div>
-                <h1>Your Project Name - Section 1</h1>
+                <h1>Your Project Name - Getting Started</h1>
             </header>
 
             <div class="content">
                 <!-- Section Header -->
                 <div class="section-header">
                     <div class="section-number">1</div>
-                    <h2>Section Title</h2>
+                    <h2>Getting Started</h2>
                     <span class="estimated-time">⏱️ 10-15 minutes</span>
                 </div>
 
                 <!-- Prerequisites -->
                 <div class="prerequisites">
-                    <h3>Section Prerequisites</h3>
+                    <h3>Prerequisites</h3>
                     <ul>
-                        <li>Prerequisite 1</li>
-                        <li>Prerequisite 2</li>
+                        <li>Required item 1</li>
+                        <li>Required item 2</li>
                     </ul>
                 </div>
 
-                <!-- Important Notes -->
+                <!-- Important Notice -->
                 <div class="important">
                     <h4>Before You Begin</h4>
-                    <p>Important information goes here...</p>
+                    <p>Important information about this section...</p>
                 </div>
 
                 <!-- Steps -->
                 <ol class="steps">
                     <li class="step">
                         <div class="step-header">
-                            <div class="step-title">Step Title</div>
-                            <div class="machine-indicator">Machine Name</div>
+                            <div class="step-title">First Step</div>
+                            <div class="machine-indicator">MACHINE1</div>
                         </div>
-                        <p>Step instructions...</p>
+                        <p>Step instructions go here...</p>
                         <img src="images/section1/step1.png" alt="Step 1" class="step-image">
-                        
                         <div class="tip">
                             <p>Helpful tip about this step...</p>
                         </div>
                     </li>
-                    <!-- More steps -->
+                    <!-- Add more steps as needed -->
                 </ol>
 
                 <!-- Verification -->
                 <div class="verification-list">
                     <h4>Verification Checklist</h4>
                     <ul class="checklist">
-                        <li>Verification point 1</li>
-                        <li>Verification point 2</li>
+                        <li>Verify this...</li>
+                        <li>Check that...</li>
                     </ul>
                 </div>
 
@@ -79,7 +90,7 @@
         </main>
     </div>
 
-    <!-- Modal template -->
+    <!-- Modal -->
     <div class="modal" id="imageModal">
         <span class="modal-close">&times;</span>
         <img class="modal-content" id="modalImage">
