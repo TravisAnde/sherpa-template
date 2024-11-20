@@ -1,72 +1,89 @@
-<!-- content/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{PAGE_TITLE}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Guide - Overview</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="layout-container">
-        <!-- Sidebar populated from config -->
         <aside class="sidebar">
             <nav class="sidebar-nav">
                 <a href="./index.html" class="nav-item active">
                     <div>0. Overview</div>
                 </a>
                 <a href="./section1.html" class="nav-item">
-                    <div>1. Getting Started</div>
+                    <div>1. Demo Organization</div>
                 </a>
-                <!-- Add more nav items as needed -->
+                <a href="./section2.html" class="nav-item">
+                    <div>2. AD Integration</div>
+                </a>
+                <a href="./section3.html" class="nav-item">
+                    <div>3. Users & Groups</div>
+                </a>
+                <a href="./section4.html" class="nav-item">
+                    <div>4. Applications</div>
+                </a>
+                <a href="./section5.html" class="nav-item">
+                    <div>5. Authentication</div>
+                </a>
             </nav>
             <div class="sidebar-footer">
-                <img src="images/logo.png" alt="Logo" />
+                <img src="images/NEXTGEN.png" alt="NEXTGEN" />
             </div>
         </aside>
 
         <main class="main-content">
             <header>
                 <div class="logo-container">
-                    <img src="images/header-logo.png" alt="Header Logo" />
+                    <img src="images/CyberLAB.png" alt="CyberLAB" />
                 </div>
-                <h1>Your Project Name - Overview</h1>
+                <h1>Project Name - Base Camp</h1>
             </header>
 
             <div class="content">
-                <!-- Overview Content -->
                 <div class="intro">
-                    <h2>Welcome to Your Project</h2>
-                    <p>Your introduction text goes here...</p>
-                    
+                    <h2>Welcome to Base Camp</h2>
+                    <p>Welcome message and introduction here...</p>
+
                     <div class="important">
                         <h4>Getting Started</h4>
                         <ul>
-                            <li>First important point</li>
-                            <li>Second important point</li>
+                            <li>Your lab environment will take approximately 4-5 minutes to initialize</li>
+                            <li>You can monitor the build progress in the status bar at the top of this window</li>
+                            <li>All machines will be ready for use once the initialization is complete</li>
+                            <li>To switch between machines/guides use the tabs labelled...</li>
                         </ul>
                     </div>
 
-                    <!-- Section Cards -->
-                    <div class="section-overview">
-                        <h3>Guide Sections</h3>
-                        <div class="section-cards">
-                            <div class="section-card">
-                                <div class="card-number">1</div>
-                                <h4>First Section</h4>
-                                <p>Section description</p>
-                                <span class="estimated-time">⏱️ 10-15 minutes</span>
-                            </div>
-                            <!-- Add more section cards -->
-                        </div>
+                    <div class="note">
+                        <h4>Quick Access</h4>
+                        <p>Access this guide in a separate browser tab at:</p>
+                        <code>https://your-github-url/</code>
+                        <p>Bookmark this URL for easy reference throughout the lab.</p>
                     </div>
-
-                    <!-- Additional content sections -->
                 </div>
+
+                <div class="section-overview">
+                    <h3>Lab Journey</h3>
+                    <p>Your implementation journey is divided into five core sections, each building upon the previous:</p>
+                    <div class="section-cards">
+                        <div class="section-card">
+                            <div class="card-number">1</div>
+                            <h4>First Section Title</h4>
+                            <p>Section description goes here</p>
+                            <span class="estimated-time">⏱️ 10-15 minutes</span>
+                        </div>
+                        <!-- Add more section cards -->
+                    </div>
+                </div>
+
+                <!-- Add environment details, support & feedback sections as needed -->
             </div>
         </main>
     </div>
 
-    <!-- Keep modal template -->
     <div class="modal" id="imageModal">
         <span class="modal-close">&times;</span>
         <img class="modal-content" id="modalImage">
