@@ -1,0 +1,91 @@
+<!-- content/section1.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{PAGE_TITLE}} - Section 1</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="layout-container">
+        <!-- Same sidebar as index -->
+        <aside class="sidebar">
+            <!-- Same navigation content -->
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <div class="logo-container">
+                    <img src="images/header-logo.png" alt="Header Logo" />
+                </div>
+                <h1>Your Project Name - Section 1</h1>
+            </header>
+
+            <div class="content">
+                <!-- Section Header -->
+                <div class="section-header">
+                    <div class="section-number">1</div>
+                    <h2>Section Title</h2>
+                    <span class="estimated-time">⏱️ 10-15 minutes</span>
+                </div>
+
+                <!-- Prerequisites -->
+                <div class="prerequisites">
+                    <h3>Section Prerequisites</h3>
+                    <ul>
+                        <li>Prerequisite 1</li>
+                        <li>Prerequisite 2</li>
+                    </ul>
+                </div>
+
+                <!-- Important Notes -->
+                <div class="important">
+                    <h4>Before You Begin</h4>
+                    <p>Important information goes here...</p>
+                </div>
+
+                <!-- Steps -->
+                <ol class="steps">
+                    <li class="step">
+                        <div class="step-header">
+                            <div class="step-title">Step Title</div>
+                            <div class="machine-indicator">Machine Name</div>
+                        </div>
+                        <p>Step instructions...</p>
+                        <img src="images/section1/step1.png" alt="Step 1" class="step-image">
+                        
+                        <div class="tip">
+                            <p>Helpful tip about this step...</p>
+                        </div>
+                    </li>
+                    <!-- More steps -->
+                </ol>
+
+                <!-- Verification -->
+                <div class="verification-list">
+                    <h4>Verification Checklist</h4>
+                    <ul class="checklist">
+                        <li>Verification point 1</li>
+                        <li>Verification point 2</li>
+                    </ul>
+                </div>
+
+                <!-- Navigation -->
+                <div class="navigation-links">
+                    <a href="index.html" class="nav-link">← Back to Overview</a>
+                    <a href="section2.html" class="nav-link">Next: Section 2 →</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal template -->
+    <div class="modal" id="imageModal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="image-caption" id="imageCaption"></div>
+    </div>
+
+    <script src="js/modal.js"></script>
+</body>
+</html>
